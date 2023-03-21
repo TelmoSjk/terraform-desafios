@@ -12,6 +12,10 @@ resource "digitalocean_database_firewall" "database-firewall" {
 
   rule {
     type  = "droplet"
+<<<<<<< HEAD
     value = digitalocean_droplet.vm_droplet_cn.id
+=======
+    value = digitalocean_droplet.vm_cn.id
+>>>>>>> 71731fa (Updating projets terraform-bronze, adding 04-CRM-HA and Updating others directors)
   }
 }

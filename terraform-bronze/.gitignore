@@ -20,6 +20,11 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+<<<<<<< HEAD
+=======
+.terraform.lock.hcl
+*.lock.hcl
+>>>>>>> 71731fa (Updating projets terraform-bronze, adding 04-CRM-HA and Updating others directors)
 
 # Include override files you do wish to add to version control using negated pattern
 #
